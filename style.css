@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    
+}
+*, html {
+
+    scroll-behavior: smooth !important;
+}
+body{
+    background-image: url('backimg4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.topnav {
+    color: darkslategray;
+    background-color: rgba(239, 245, 247, 0.8 );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ff9933;
+    /* color: black; */
+  }
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 50px;
+    background-color: whitesmoke;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #ff9933;
+  }
+  .sidehedding{
+    padding: 5px;
+    font-size: 40px;
+    color: white;
+    margin: 5px;
+  }
+  .flex-container{
+    display: flex;
+  }
+  .imgcontainer img{
+    height: 500px;
+    width: 400px;
+ 
+  }
+  /* main */
+  .main{
+    margin-left: 200px;
+    margin-top: 49px;
+    padding: 20px;
+  }
+  .container1{
+    max-width: 90%;
+    padding: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgba(249, 105, 14, 0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  /* image container */
+  .textcontainer{
+    padding: 10px;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: beige;
+    text-shadow: 2px 2px #000000;
+  }
+  /* font  */
+  .title{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #ff9933;
+  }
